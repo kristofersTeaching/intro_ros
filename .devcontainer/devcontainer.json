@@ -1,0 +1,11 @@
+{
+    "name": "ros_planner",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "planner",
+    "workspaceFolder": "/planner/",
+	"shutdownAction": "stopCompose",
+	"extensions": [
+		"ms-python.python",
+		"ms-vscode-remote.vscode-remote-extensionpack",
+	]
+}
